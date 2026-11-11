@@ -15,3 +15,5 @@ resource "aws_iam_role_policy" "read" {
     Statement = [{ Effect = "Allow", Action = "*", Resource = "arn:aws:s3:::e2e-iam-bucket/*" }]
   })
 }
+
+# TF9: a new commit after the approval
