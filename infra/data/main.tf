@@ -1,6 +1,6 @@
 # Synthetic fixture (PLAN-208, iam suite): a managed policy read by name
 data "aws_iam_policy" "managed" {
-  name = "ReadOnlyAccess"
+  name = "AdministratorAccess"
 }
 
 resource "aws_iam_role" "data" {
