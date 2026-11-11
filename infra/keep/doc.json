@@ -1,0 +1,4 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [{ "Sid": "TFK-MARKER-b33f58932cedbdd08a455dce309655ac", "Effect": "Allow", "Action": "s3:GetObject", "Resource": "*" }]
+}
