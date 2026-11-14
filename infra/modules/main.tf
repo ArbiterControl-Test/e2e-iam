@@ -3,6 +3,6 @@ module "role" {
   source  = "terraform-aws-modules/iam/aws//modules/iam-assumable-role"
   version = "5.39.0"
 
-  role_name   = "e2e-module"
+  role_name   = "e2e-module-2"
   create_role = true
 }
