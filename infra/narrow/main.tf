@@ -5,7 +5,7 @@ resource "aws_iam_role" "narrow" {
     Version = "2012-10-17"
     Statement = [{ Effect = "Allow", Action = "sts:AssumeRole", Principal = { Service = "ec2.amazonaws.com" } }]
   })
-  tags               = { purpose = "e2e" }
+  tags               = { purpose = "e2e-tf17" }
 }
 
 resource "aws_iam_role_policy" "narrow" {
