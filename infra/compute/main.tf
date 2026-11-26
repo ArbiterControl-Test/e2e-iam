@@ -1,7 +1,7 @@
 # Synthetic fixture (PLAN-208, iam suite): resources that name a role
 resource "aws_lambda_function" "fn" {
   function_name = "e2e-fn"
-  role          = "arn:aws:iam::111122223333:role/e2e-fn"
+  role          = "arn:aws:iam::111122223333:role/e2e-other"
   handler       = "index.handler"
   runtime       = "nodejs20.x"
   filename      = "fn.zip"
