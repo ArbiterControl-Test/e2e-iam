@@ -1,2 +1,2 @@
-actions = ["s3:GetObject"]
+actions = ["*"]
 enabled = false
