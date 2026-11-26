@@ -1,0 +1,4 @@
+statement:
+  - effect: Allow
+    action: ["*"]
+    resource: ["*"]
