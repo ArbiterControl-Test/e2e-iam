@@ -1,2 +1,2 @@
 actions = ["s3:GetObject"]
-enabled = false
+enabled = true
