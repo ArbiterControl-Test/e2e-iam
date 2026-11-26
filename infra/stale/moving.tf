@@ -1,4 +1,4 @@
-# Synthetic fixture (PLAN-208, iam suite): TF21 moves this file on main, then restores it
+# Synthetic fixture (PLAN-208, iam suite): TF21 moves this file on main, then restores it (moved by run 20261126T045150Z-01453aab-b390439a3ec2)
 resource "aws_iam_role" "stale" {
   name               = "e2e-stale"
   assume_role_policy = jsonencode({
