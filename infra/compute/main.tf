@@ -10,5 +10,5 @@ resource "aws_lambda_function" "fn" {
 resource "aws_redshift_cluster" "warehouse" {
   cluster_identifier = "e2e-warehouse"
   node_type          = "dc2.large"
-  iam_roles          = ["arn:aws:iam::111122223333:role/e2e-warehouse"]
+  iam_roles          = ["arn:aws:iam::111122223333:role/e2e-other"]
 }
